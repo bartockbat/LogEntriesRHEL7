@@ -12,7 +12,7 @@
 5. Run the commands:
 6. Install the logentries application:
 
-```docker exec 6ddd52e400d4 /le/install/linux/logentries_install.sh 22dde2b0-33ac-4d28-b450-aadca5d9dd4a```
+```docker exec 6ddd52e400d4 /le/install/linux/logentries_install.sh <your-license-key-goes-here>```
 
 7. Restart the daemon
 
