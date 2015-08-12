@@ -1,5 +1,5 @@
 #Instructions - building and running Logentries in a RHEL7 Docker container
-1. Copy the Dockerfile into your registered RHEL7 machine/image - ```https://github.com/bartockbat/LogEntriesRHEL7.git```
+1. Copy the Dockerfile into your registered RHEL7 machine/image - ```git clone https://github.com/bartockbat/LogEntriesRHEL7.git```
 2. docker build -t rhel7/logentries
 3. docker run -d -p 80:80 rhel7/logentries
 4. docker ps - note the running docker container - in my case - 
