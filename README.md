@@ -5,7 +5,7 @@
 3. docker run -d -p 80:80 rhel7/logentries
 4. docker ps - note the running docker container - in my case - 
 
-```CONTAINER ID        IMAGE                     COMMAND                CREATED             STATUS              PORTS                NAMES```
+```CONTAINER ID```        ```IMAGE```                     ```COMMAND```                ```CREATED```             ```STATUS```              ```PORTS```               ```NAMES```
 
 ```6ddd52e400d4        rhel7/logentries:latest   "/usr/sbin/apachectl   11 minutes ago      Up 11 minutes       0.0.0.0:80->80/tcp   kickass_elion```
 
