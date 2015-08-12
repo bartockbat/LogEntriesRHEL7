@@ -11,8 +11,11 @@
 
 5. Run the commands:
 6. Install the logentries application:
-docker exec 6ddd52e400d4 /le/install/linux/logentries_install.sh 22dde2b0-33ac-4d28-b450-aadca5d9dd4a
+
+```docker exec 6ddd52e400d4 /le/install/linux/logentries_install.sh 22dde2b0-33ac-4d28-b450-aadca5d9dd4a```
+
 7. Restart the daemon
-docker exec 6ddd52e400d4 service logentries restart
+
+```docker exec 6ddd52e400d4 service logentries restart```
 
 8. Look in the web UI, and you will see the entry for the Docker container.
