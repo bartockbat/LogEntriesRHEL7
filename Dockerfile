@@ -1,7 +1,7 @@
 # The latest RHEL 7 image from Redhat
 FROM registry.access.redhat.com/rhel7:latest
 
-MAINTAINER Glen Millard gmillard@redhat.com 
+MAINTAINER Redhat
 LABEL Name Logentries rhel7/logentries
 LABEL Version 0.1
 LABEL Release OSS
